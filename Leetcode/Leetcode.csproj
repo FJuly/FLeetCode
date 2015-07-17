@@ -62,6 +62,7 @@
     <Compile Include="数组\FirstMissingPositive.cs" />
     <Compile Include="数组\MajorityElement.cs" />
     <Compile Include="数组\MaximumGap.cs" />
+    <Compile Include="栈和队列\SlidingWindowMaxValue.cs" />
     <Compile Include="栈和队列\StackExample.cs" />
   </ItemGroup>
   <ItemGroup>

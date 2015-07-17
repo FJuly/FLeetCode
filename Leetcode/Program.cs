@@ -21,7 +21,7 @@ namespace Leetcode
 
 
         /*
-         　在使用静态构造函数的时候应该注意几点：
+         　在使用静态构造函数的时候应该注意几点： 类构造函数
 
 　　          1、静态构造函数既没有访问修饰符，也没有参数。因为是.NET调用的，所以像public和private等修饰符就没有意义了。
 　　
@@ -83,6 +83,10 @@ namespace Leetcode
             int[] num1 = new int[] { 1, 2, 3, 4, 5 };
             int[] num2 = new int[] { 5, 4, 3, 2, 1 };
             Console.WriteLine("结果是：" + new StackExample().IsStackMatch(num1, num2).ToString());
+
+
+            int[] num3 = new int[] { 1,5,6,8,4,2,0};
+            Console.WriteLine(new HeapSortSolution().HeapSort(num3).ToArray());
             Person p1 = new Person();
             Person p2 = new Person();
             Person p3 = new Person();
