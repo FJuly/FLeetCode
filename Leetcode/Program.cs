@@ -1,4 +1,5 @@
 ﻿using Leetcode.数组;
+using Leetcode.栈和队列;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -84,6 +85,8 @@ namespace Leetcode
             int[] num2 = new int[] { 5, 4, 3, 2, 1 };
             Console.WriteLine("结果是：" + new StackExample().IsStackMatch(num1, num2).ToString());
 
+            int[] num4 = new int[] {1,3,1,2,0,5};
+            new SlidingWindowMaxValue().MaxSlidingWindow(num4,3);
 
             int[] num3 = new int[] { 1,5,6,8,4,2,0};
             Console.WriteLine(new HeapSortSolution().HeapSort(num3).ToArray());
