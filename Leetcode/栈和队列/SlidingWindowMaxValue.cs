@@ -27,10 +27,10 @@ namespace Leetcode.栈和队列
             //Queue<int> queue = new Queue<int>();
             int length = nums.Length;
 
-            List<int> list = new List<int>();//使用list模拟队列
-       
+            List<int> list = new List<int>();//使用List模拟一个双向都可以出的队列，用一种特定的数据结构会更好
 
-            if (nums==null||length < k - 1||k<=0)
+
+            if (nums == null || length < k - 1 || k <= 0)
             {
                 return new int[0];
             }
@@ -38,13 +38,16 @@ namespace Leetcode.栈和队列
             //过期时间在于k
             for (int i = 0; i < length; i++)
             {
-                while (list.Count!=0&&(i - list[0]) >= k)
+                //移除队头：关键步骤1
+                while (list.Count != 0 && (i - list[0]) >= k)
                 {
-                    list.RemoveAt(0);//移除队头
+                    list.RemoveAt(0);
                 }
+
+                //移除队尾：关键步骤2
                 while (list.Count != 0 && nums[i] > nums[list[list.Count - 1]])//这里尤其要注意nums[list[list.Count-1]]
                 {
-                    list.RemoveAt(list.Count-1);//移除队尾
+                    list.RemoveAt(list.Count - 1);
                 }
                 list.Add(i);
                 if (i >= k - 1)

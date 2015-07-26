@@ -64,6 +64,7 @@
     <Compile Include="数组\MaximumGap.cs" />
     <Compile Include="栈和队列\SlidingWindowMaxValue.cs" />
     <Compile Include="栈和队列\StackExample.cs" />
+    <Compile Include="链表\RotateArray.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
