@@ -88,8 +88,13 @@ namespace Leetcode
             int[] num4 = new int[] {1,3,1,2,0,5};
             new SlidingWindowMaxValue().MaxSlidingWindow(num4,3);
 
+            new LongestPalindrome().LongestPalindromeSolution("eabcb");
+
             int[] num3 = new int[] { 1,5,6,8,4,2,0};
             Console.WriteLine(new HeapSortSolution().HeapSort(num3).ToArray());
+
+            int[] num5 = new int[] { 1,2,3};
+            new Permutations().Permute(num5);
             Person p1 = new Person();
             Person p2 = new Person();
             Person p3 = new Person();

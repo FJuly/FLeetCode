@@ -41,7 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClimbingStairs .cs" />
+    <Compile Include="字符串\LongestPalindrome.cs" />
+    <Compile Include="数组\FindMedianSortedArrays.cs" />
+    <Compile Include="数组\ClimbingStairs .cs" />
     <Compile Include="二分搜索\FindMinimuminRotatedSorteArray .cs" />
     <Compile Include="二分搜索\FindMinimuminRotatedSorteArray2.cs" />
     <Compile Include="排序\HeapSortSolution.cs" />
@@ -50,9 +52,11 @@
     <Compile Include="动态规划\EditDistance .cs" />
     <Compile Include="动态规划\MaximumSubarray.cs" />
     <Compile Include="动态规划\MinimumPathSum.cs" />
+    <Compile Include="数组\LongestConsecutiveSequence .cs" />
+    <Compile Include="数组\Permutations.cs" />
     <Compile Include="栈和队列\LargestRectangleinHistogram.cs" />
     <Compile Include="栈和队列\MyStack.cs" />
-    <Compile Include="PathSum .cs" />
+    <Compile Include="树\PathSum .cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="位运算\SingleNumber.cs" />
