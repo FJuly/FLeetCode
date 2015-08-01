@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="字符串\LongestPalindrome.cs" />
+    <Compile Include="数组\ContainerWithMostWater .cs" />
     <Compile Include="数组\FindMedianSortedArrays.cs" />
     <Compile Include="数组\ClimbingStairs .cs" />
     <Compile Include="二分搜索\FindMinimuminRotatedSorteArray .cs" />
@@ -54,6 +55,7 @@
     <Compile Include="动态规划\MinimumPathSum.cs" />
     <Compile Include="数组\LongestConsecutiveSequence .cs" />
     <Compile Include="数组\Permutations.cs" />
+    <Compile Include="数组\TrappingRainWater.cs" />
     <Compile Include="栈和队列\LargestRectangleinHistogram.cs" />
     <Compile Include="栈和队列\MyStack.cs" />
     <Compile Include="树\PathSum .cs" />

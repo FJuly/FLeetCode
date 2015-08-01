@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 namespace Leetcode.数组
 {
     //回溯算法，LeetCode 46:https://leetcode.com/problemset/algorithms/
+
+    //使用字典序生成全排列，是迭代的算法~~
     class Permutations
     {
         public IList<IList<int>> Permute(int[] nums)

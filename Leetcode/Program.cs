@@ -95,6 +95,9 @@ namespace Leetcode
 
             int[] num5 = new int[] { 1,2,3};
             new Permutations().Permute(num5);
+
+            int[] num6 = new int[] {2,0,2 };
+            new TrappingRainWater().Trap(num6);
             Person p1 = new Person();
             Person p2 = new Person();
             Person p3 = new Person();
