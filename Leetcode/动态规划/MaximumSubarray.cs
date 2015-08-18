@@ -8,9 +8,9 @@ namespace Leetcode
 {
     public class MaximumSubarray
     {
-
         /*使用动态规划，leeetcode:https://leetcode.com/problems/maximum-subarray/*/
-        /*看一下分治的解法*/
+        //思路：统计以i结尾的最大子数组的和，递推公式：以i结尾的最大的和是以i-1结尾的最大的和加上或者不加上i
+        //也可以使用前缀和解决
         public int MaxSubArray(IList<int> nums)
         {
             int pre = nums[0];

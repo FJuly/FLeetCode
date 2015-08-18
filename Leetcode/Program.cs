@@ -1,4 +1,5 @@
-﻿using Leetcode.数组;
+﻿using Leetcode.树;
+using Leetcode.数组;
 using Leetcode.栈和队列;
 using System;
 using System.Collections.Generic;
@@ -6,6 +7,7 @@ using System.IO;
 using System.Linq;
 using System.Net.Sockets;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Leetcode
@@ -79,36 +81,14 @@ namespace Leetcode
 
     class Program
     {
-        static void Main(string[] args)
+        static void Main11(string[] args)     
         {
-            int[] num1 = new int[] { 1, 2, 3, 4, 5 };
-            int[] num2 = new int[] { 5, 4, 3, 2, 1 };
-            Console.WriteLine("结果是：" + new StackExample().IsStackMatch(num1, num2).ToString());
-
-            int[] num4 = new int[] {1,3,1,2,0,5};
-            new SlidingWindowMaxValue().MaxSlidingWindow(num4,3);
-
-            new LongestPalindrome().LongestPalindromeSolution("eabcb");
-
-            int[] num3 = new int[] { 1,5,6,8,4,2,0};
-            Console.WriteLine(new HeapSortSolution().HeapSort(num3).ToArray());
-
-            int[] num5 = new int[] { 1,2,3};
-            new Permutations().Permute(num5);
-
-            int[] num6 = new int[] {2,0,2 };
-            new TrappingRainWater().Trap(num6);
-            Person p1 = new Person();
-            Person p2 = new Person();
-            Person p3 = new Person();
-
-
-            Sample sample = new Sample(200);
-            Console.WriteLine(sample.readonlyValue);
-
-            int[] arry1 = new int[] { 3, 6, 9, 1 };
-            Console.Write(new MaximumGap().maximumGap(arry1));
-
+            while (true)
+            {
+                Console.WriteLine(new Random().Next(7));
+                Thread.Sleep(100);
+                
+            }
             int j = 1;
             Console.WriteLine(j++);
             /*int最大数*/
@@ -127,7 +107,7 @@ namespace Leetcode
             }
             foreach (Action a in lists)
             {
-                a();//输出是55555
+                a();//输出是55555  
             }
             //Dictionary<string,string> dic = new Dictionary<string ,string>();
             //dic.Add("1","dd");

@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="动态规划\MaximumProductSubarray.cs" />
+    <Compile Include="字符串\DistinctSubsequences.cs" />
     <Compile Include="字符串\LongestPalindrome.cs" />
     <Compile Include="数组\ContainerWithMostWater .cs" />
     <Compile Include="数组\FindMedianSortedArrays.cs" />
@@ -54,11 +56,20 @@
     <Compile Include="动态规划\MaximumSubarray.cs" />
     <Compile Include="动态规划\MinimumPathSum.cs" />
     <Compile Include="数组\LongestConsecutiveSequence .cs" />
+    <Compile Include="数组\NextPermutation.cs" />
     <Compile Include="数组\Permutations.cs" />
     <Compile Include="数组\TrappingRainWater.cs" />
     <Compile Include="栈和队列\LargestRectangleinHistogram.cs" />
     <Compile Include="栈和队列\MyStack.cs" />
-    <Compile Include="树\PathSum .cs" />
+    <Compile Include="树\BinaryTreeLevelOrderTraversal.cs" />
+    <Compile Include="树\BinaryTreeMaximumPathSum.cs" />
+    <Compile Include="树\ConvertSortedArraytoBinarySearchTree.cs" />
+    <Compile Include="树\ConvertSortedListtoBinarySearchTree.cs" />
+    <Compile Include="树\FlattenBinaryTreetoLinkedList.cs" />
+    <Compile Include="树\MaximumDepthofBinaryTree .cs" />
+    <Compile Include="树\MinimumDepthofBinaryTree.cs" />
+    <Compile Include="树\PreorderandInorder.cs" />
+    <Compile Include="树\PathSum.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="位运算\SingleNumber.cs" />
@@ -70,11 +81,16 @@
     <Compile Include="数组\MaximumGap.cs" />
     <Compile Include="栈和队列\SlidingWindowMaxValue.cs" />
     <Compile Include="栈和队列\StackExample.cs" />
+    <Compile Include="树\SameTree.cs" />
+    <Compile Include="树\SymmetricTree.cs" />
+    <Compile Include="树\ValidateBinarySearchTree .cs" />
+    <Compile Include="概率算法\Probability.cs" />
     <Compile Include="链表\RotateArray.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

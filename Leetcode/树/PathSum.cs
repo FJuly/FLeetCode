@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Leetcode
 {
 
-    /*题目链接:https://leetcode.com/submissions/detail/25266270/*/
+    /*题目链接:https://leetcode.com/problems/path-sum/*/
     public class PathSum
     {
         public int pathSum = 0;
@@ -58,5 +58,4 @@ namespace Leetcode
         public TreeNode right;
         public TreeNode(int x) { val = x; }
     }
-
 }
