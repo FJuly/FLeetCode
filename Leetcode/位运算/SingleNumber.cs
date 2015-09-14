@@ -12,6 +12,14 @@ namespace Leetcode
     /*接下来一题的参考博客：http://blog.csdn.net/jiadebin890724/article/details/23306837*/
     public class SingleNumber
     {
+        static void Main11(string[] args)
+        {
+            int a = int.Parse("80000000", System.Globalization.NumberStyles.HexNumber);//负数右移动时会最高位会保持不变，即符号位会不变
+            a=a-1;
+            Console.WriteLine(a.ToString("X"));
+        }
+
+
         public int singleNumber(int[] A)
         {
             if (A.Length <= 1)

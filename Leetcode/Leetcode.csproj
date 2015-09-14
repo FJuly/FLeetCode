@@ -44,6 +44,7 @@
     <Compile Include="动态规划\MaximumProductSubarray.cs" />
     <Compile Include="字符串\DistinctSubsequences.cs" />
     <Compile Include="字符串\LongestPalindrome.cs" />
+    <Compile Include="排序\QuickSort.cs" />
     <Compile Include="数组\ContainerWithMostWater .cs" />
     <Compile Include="数组\FindMedianSortedArrays.cs" />
     <Compile Include="数组\ClimbingStairs .cs" />
@@ -58,6 +59,7 @@
     <Compile Include="数组\LongestConsecutiveSequence .cs" />
     <Compile Include="数组\NextPermutation.cs" />
     <Compile Include="数组\Permutations.cs" />
+    <Compile Include="数组\PrintMaxOfMax.cs" />
     <Compile Include="数组\TrappingRainWater.cs" />
     <Compile Include="栈和队列\LargestRectangleinHistogram.cs" />
     <Compile Include="栈和队列\MyStack.cs" />
@@ -66,6 +68,7 @@
     <Compile Include="树\ConvertSortedArraytoBinarySearchTree.cs" />
     <Compile Include="树\ConvertSortedListtoBinarySearchTree.cs" />
     <Compile Include="树\FlattenBinaryTreetoLinkedList.cs" />
+    <Compile Include="树\HasSubTree.cs" />
     <Compile Include="树\MaximumDepthofBinaryTree .cs" />
     <Compile Include="树\MinimumDepthofBinaryTree.cs" />
     <Compile Include="树\PreorderandInorder.cs" />
@@ -85,6 +88,10 @@
     <Compile Include="树\SymmetricTree.cs" />
     <Compile Include="树\ValidateBinarySearchTree .cs" />
     <Compile Include="概率算法\Probability.cs" />
+    <Compile Include="链表\CopyListwithRandomPointer.cs" />
+    <Compile Include="链表\PartitionList.cs" />
+    <Compile Include="链表\PrintListReversingly.cs" />
+    <Compile Include="链表\ReverseLinkedListII.cs" />
     <Compile Include="链表\RotateArray.cs" />
   </ItemGroup>
   <ItemGroup>

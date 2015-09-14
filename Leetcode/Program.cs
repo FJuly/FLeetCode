@@ -115,7 +115,6 @@ namespace Leetcode
             //dic.Add("3", "hh");
             //dic.Add("4", "jj");
             //string aa= dic["1"];
-
         }
 
         public static bool IsValid(string s)
@@ -184,7 +183,6 @@ namespace Leetcode
             {
                 return false;
             }
-
         }
     }
 }

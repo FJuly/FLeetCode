@@ -14,9 +14,6 @@ namespace Leetcode
     {
         public void TwoSingleNumberSolution(int[] nums)
         {
-
-            
-
             int xXory = 0;
             /*这个循环是为了找出x y不相同的一位*/
             for (int i = 0; i < nums.Length; i++)

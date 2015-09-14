@@ -28,7 +28,7 @@ namespace Leetcode.数组
                 int TrapHeight = 0;
                 MaxRight = MaxRight > height[i] ? MaxRight : height[i];//右边当前元素的最大值
                 TrapHeight = (MaxRight > left[i] ? left[i] : MaxRight) - height[i];
-                if (TrapHeight > 0)
+                if (TrapHeight > 0)//有特殊情况（2，0，2），判断一下
                     area += TrapHeight;
             }
             return area;

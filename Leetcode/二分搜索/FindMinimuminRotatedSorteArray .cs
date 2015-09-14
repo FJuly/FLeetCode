@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Leetcode
 {
+    //包含重复的元素
     public class FindMinimuminRotatedSorteArray
     {
         public int FindMin(int[] nums)
