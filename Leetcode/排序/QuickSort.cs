@@ -8,7 +8,7 @@ namespace Leetcode.排序
 {
     class QuickSort
     {
-        public static void Main()
+        public static void Main11()
         {
             int[] num = {5,2,5,6,7,8,2,3,4,5,6,9,1};
             QuickSortSolution(num,0,12);
